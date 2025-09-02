@@ -1,13 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
+fun main() { // So basically this is the main function of kotlin
+    /*
+    The fun above stands for function in kotlin, and we do not need to use
+    main(String[], args) like in JAVA
+    Note: the old Kotlin Versions used to run main(args: Array<String>) in order to run the main function
+    */
     val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, $name!")
+    println("Hello, $name!") // The basic print function in kotlin, does not need System.out.println
 
-    for (i in 1..5)
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
+
+    /* In Kotlin we do not need to declare the variable
+    type because kotlin can understand the variable type by itself
+     */
+
+    var first_number = 69;
+    var second_number = 420;
+
+    println("The addition of the numbers are ${first_number + second_number}")
+
 }
